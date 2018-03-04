@@ -7,6 +7,9 @@ Updated V1.2 : Response a Bit Faster
 Copyright @ Medantechno.com
 
 Modified @ Farzain - zFz
+Modified 2 @ Adrian
+
+support by : ageris
 
 # Deploy to:
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
