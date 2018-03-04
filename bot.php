@@ -1,7 +1,7 @@
 <?php
 /*
 copyright @ medantechno.com
-Modified @ Farzain - zFz
+Modified @ adrian
 2017
 
 */
@@ -9,8 +9,8 @@ Modified @ Farzain - zFz
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //sesuaikan 
-$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//sesuaikan
+$channelAccessToken = JtTfop8IbbAvyNSDYLKxS68Wdk3EN1vNRPVCa+5jB4urfCT+gJCKiFnNeiK32AONetRvP6fMdEobqHcrVqnmhbn/LOLRMabOkz6FCFogiCiJoNL/smvc/k4o7K02vwxPxA6PtBkbPgvdDSFFPlE6oQdB04t89/1O/w1cDnyilFU=; //sesuaikan 
+$channelSecret = 0aa1db82d112f59637d6c7b01c12548c;//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
@@ -69,7 +69,7 @@ function shalat($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/menu') {
-    $text = "Assalamualaikum Kakak, aku adalah bot jadwal shalat, silahkan ketik\n\n/shalat <nama tempat>\n\nnanti aku bakalan kasih tahu jam berapa waktunya shalat ^_^";
+    $text = "Assalamualaikum Kakak-kakak dan adek-adek pemuja moba analog bangsat, aku adalah bot jadwal shalat jangan lupa shalat dan jangan kau tinggal kan shalat mu, moba analog gak bisa membawa mu kesurga yah kakak- kakak dan adek adek pemuja moba analog bngst, silahkan ketik\n\n/shalat <nama tempat>\n\nnanti aku bakalan kasih tahu jam berapa waktunya shalat ^_^";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -104,7 +104,7 @@ if($message['type']=='text') {
 							'messages' => array(
 								array(
 										'type' => 'text',									
-										'text' => 'Makasih Kak Stikernya ^_^'										
+										'text' => 'jangan pake stiker yah kampank ^_^'										
 									
 									)
 							)
